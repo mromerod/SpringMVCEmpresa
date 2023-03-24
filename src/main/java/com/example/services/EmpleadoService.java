@@ -10,4 +10,5 @@ public interface EmpleadoService {
     public Empleado findById(int idEmpleado);
     public void save(Empleado empleado);
     public void deleteById(int idEmpleado);
+    public void delete(Empleado empleado);
 }

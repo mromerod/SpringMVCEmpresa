@@ -36,7 +36,7 @@ public class Empleado implements Serializable {
     private String nombre;
     private String apellidos;
 
-    @DateTimeFormat(pattern = "MM-dd-yyyy")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate fechaAlta;
 
     private Genero genero;
